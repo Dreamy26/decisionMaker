@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}|Default">
-  <MonoDevelop.Ide.ItemProperties.decisionMaker FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="notes.md">
+  <MonoDevelop.Ide.ItemProperties.decisionMaker PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="decisionMaker/Program.cs">
     <Files>
-      <File FileName="decisionMaker/Program.cs" Line="1" Column="1" />
-      <File FileName="notes.md" Line="1" Column="1" />
+      <File FileName="decisionMaker/Program.cs" Line="1" Column="40" />
+      <File FileName="notes.md" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="decisionMaker" expanded="True" selected="True">
-            <Node name="decisionMaker" expanded="True" />
+          <Node name="decisionMaker" expanded="True">
+            <Node name="decisionMaker" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "decisionMaker", "decisionMaker\decisionMaker.csproj", "{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFBE2B1E-DAF7-4266-B5AA-9A67A711E7DD}"
+	ProjectSection(SolutionItems) = preProject
+		notes.md = notes.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}.Debug|anycpu.Build.0 = Debug|anycpu
+		{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}.Release|anycpu.ActiveCfg = Release|anycpu
+		{6BE7B0AC-B9D2-4D81-84BE-7B2962956FDF}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {918866E4-E070-4A0F-A72C-0BF6EBB6B9D1}
+	EndGlobalSection
+EndGlobal

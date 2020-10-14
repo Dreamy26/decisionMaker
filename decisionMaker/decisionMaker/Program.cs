@@ -57,7 +57,7 @@ namespace decisionMaker
                 } while (response.ToLower() == "y") ;
 
                 // req7
-                Console.WriteLine($"Byyyeee {userName}");
+                Console.WriteLine($"Byyyeee {userName.ToUpper()}");
             }
         }
     }

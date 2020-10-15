@@ -14,7 +14,7 @@ namespace decisionMaker
             int userNumber = 0;
             int i;
 
-            //req8
+            //req9
             Console.WriteLine("What is your name? (type your name and press enter)");
             userName = Console.ReadLine();
 
@@ -22,19 +22,24 @@ namespace decisionMaker
 
             do
             {
+                //req1
                 Console.WriteLine("Enter a number between 1 & 100");
                 userNumber = Int32.Parse(Console.ReadLine());
 
+                //req2
                 if (userNumber % 2 == 0)
                 {
+                    //req4
                     if (userNumber < 25)
                     {
                         Console.Write("Even and less than 25");
                         Console.Read();
                     }
+                    //req5
                     else if (userNumber > 60)
                     {
-                        Console.Write($"{userNumber} Even");
+                        //req6
+                        Console.Write($"{userNumber} Even {userName}");
                         Console.Read();
                     }
                     else
@@ -45,8 +50,9 @@ namespace decisionMaker
                 }
                 else
                 {
-                    // since the outcome is the same for odd numbers greater than and less than 60 there is no test condition 
-                    Console.Write($"{userNumber} Odd");
+                    // since the outcome is the same for odd numbers greater than and less than 60 there is no test condition
+                    //req3 & req7
+                    Console.Write($"{userNumber} Odd {userName}");
                     Console.Read();
 
 
@@ -56,7 +62,7 @@ namespace decisionMaker
                    
                 } while (response.ToLower() == "y") ;
 
-                // req7
+                // req8
                 Console.WriteLine($"Byyyeee {userName.ToUpper()}");
             }
         }
